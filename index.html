@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#f8edf0">
+    <title>Notre histoire ♡</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="shell">
+        <div class="ornament">♡ &nbsp; ✦ &nbsp; ♡</div>
+        <section id="welcome" class="panel">
+            <p class="eyebrow">UN PETIT CADEAU RIEN QUE POUR TOI</p>
+            <h1>Notre histoire <span>♡</span></h1>
+            <p>12 questions, quelques souvenirs et beaucoup de nous. Il n'y a pas de mauvaise réponse : raconte
+                simplement notre histoire avec tes mots.</p><button id="start" class="primary">Commencer notre histoire
+                →</button>
+        </section>
+        <section id="quiz" class="panel hidden">
+            <div class="topline"><span id="counter">Question 1 sur 12</span><span>♡</span></div>
+            <div class="track">
+                <div id="progress"></div>
+            </div>
+            <p class="eyebrow">À TRAVERS TES YEUX</p>
+            <h2 id="question"></h2>
+            <div id="answer"></div>
+            <div class="actions"><button id="prev" class="secondary">← Précédent</button><button id="next"
+                    class="primary">Suivant →</button></div>
+            <p class="hint">Tes réponses sont sauvegardées sur cet appareil.</p>
+        </section>
+        <section id="result" class="panel hidden">
+            <p class="eyebrow">UN PETIT BOUT DE NOUS</p>
+            <h1>Notre histoire <span>♡</span></h1>
+            <p>Voici tes réponses, tes souvenirs et tes envies.</p>
+            <div id="summary"></div>
+            <div class="actions"><button id="edit" class="secondary">← Modifier</button><button id="download"
+                    class="primary">Télécharger en PDF ↓</button></div>
+            <p class="hint">Le bouton ouvre l'impression : choisis « Enregistrer au format PDF ».</p>
+        </section>
+        <footer>Fait avec ♡</footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
